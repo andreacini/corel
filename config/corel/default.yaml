@@ -1,0 +1,32 @@
+defaults:
+  - optimizer: lr_default
+  - dataset: la
+  - model: corel
+  - _self_
+
+hydra:
+  run:
+    dir: logs/qrcp/${dataset.name}/${model.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+
+workers: 0
+num_threads: 1
+
+#### Training params ##########################################################
+alphas:
+  - 0.05
+  - 0.1
+  - 0.2
+epochs: 100
+train_batches: 50
+patience: 50
+batch_size: 64
+
+grad_clip_val: 5
+scale_axis: graph
+
+val_len: 0.1
+
+#### Data loading #############################################################
+
+src_dir: ???

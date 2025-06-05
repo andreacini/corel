@@ -1,0 +1,32 @@
+name: corel
+channels:
+  - pytorch
+  - nvidia                    
+  - conda-forge
+  - pyg
+  - defaults
+dependencies:
+  - python>=3.10
+  - lightning
+  - networkx
+  - matplotlib
+  - numpy<2
+  - pytorch>=2.1.0
+  - pytorch-cuda=12.1         
+  - requests
+  - scikit-learn
+  - pyg
+  - pytorch-cluster
+  - pytorch-scatter
+  - pytorch-sparse
+  - openpyxl
+  - pip
+  - pip:
+      - einops
+      - hydra-core
+      - neptune
+      - tensorboard
+      - omegaconf
+      - pillow
+      - pydrive
+      - git+https://github.com/TorchSpatiotemporal/tsl.git@dev

@@ -1,0 +1,15 @@
+# @package _global_
+
+#### Windowing params #########################################################
+dataset:
+  name: gpvar
+  connectivity:
+    layout: edge_index
+    include_weights: False
+    include_self: False
+
+window: 5
+horizon: 1
+stride: 1
+
+scale_target: False

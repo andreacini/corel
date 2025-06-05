@@ -1,0 +1,23 @@
+# @package _global_
+
+#### Model params #############################################################
+model:
+  name: corel
+  hparams: {}
+  encoder:
+    name: corel
+    hparams:
+      hidden_size: 64
+      emb_size: 16
+      temporal_layers: 1
+      gnn_layers: 2
+      activation: 'elu'
+      conv_type: 'aniso'
+      n_neighbors: 20
+      sparsify_gradient: True
+      at_most_k: False
+      dropout_emb: 0.
+  decoder:
+    name: multiquantile
+    hparams:
+      hidden_size: 64
