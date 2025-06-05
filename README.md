@@ -1,8 +1,13 @@
+[![ICML](https://img.shields.io/badge/ICML-2025-blue.svg?style=flat-square)]()
+[![arXiv](https://img.shields.io/badge/arXiv-2305.19183-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2502.09443)
+[![PDF](https://img.shields.io/badge/%E2%87%A9-PDF-orange.svg?style=flat-square)](https://arxiv.org/pdf/2502.09443)
+
+
 # Relational Conformal Prediction for Correlated Time Series (ICML 2025)
 
 This repository contains the code for the reproducibility of the experiments presented in the paper "Relational Conformal Prediction for Correlated Time Series".
 
-**Authors**: [Andrea Cini](mailto:andrea.cini@usi.ch), Alexander Jenkins, Danilo Mandic, Cesare Alippi, Filippo Maria Bianchi
+**Authors**: [Andrea Cini](mailto:andrea.cini@usi.ch), [Alexander Jenkins](a.jenkins21@imperial.ac.uk), Danilo Mandic, Cesare Alippi, [Filippo Maria Bianchi](filippo.m.bianchi@uit.no)
 
 ## Datasets
 
